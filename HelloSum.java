@@ -1,4 +1,4 @@
-//214066
+//21406 김정빈
 
 import java.util.Scanner;
 
