@@ -9,7 +9,7 @@ public class RandAlgorithm {
     //랜덤 변수 만들기
     Random rand = new Random();
     for(int i=0; i<10; i++){
-        input[i] = (rand.nextInt(10) + 1);
+        input[i] = (rand.nextInt(100) + 1);
         System.out.print(input[i] + " ");
     }
     System.out.println("1부터 10사이의 랜덤변수 : " + (rand.nextInt(10) + 1)
@@ -22,6 +22,17 @@ public class RandAlgorithm {
             minValue = input[i];
         }
     }
+    System.out.println("최소값은 " + minValue + " 입니다.");
+
+    //랜덤 변수에서 최대값 구하기
+    int maxValue = 0;
+    for(int i = 0; i<10; i++){
+        if(input[i] > maxValue){
+            maxValue = input[i];
+        }
+    }
+    System.out.println("최대값은 " + maxValue + " 입니다.");
+
     }
     
 }
