@@ -73,10 +73,6 @@
 				<th>회원번호</th>
 				<td><input type="text" name="custno" value="<%= rs.getString("custno") %>" size="10" readonly></td>
 			</tr>
-			<tr>
-				<th>회원성명</th>
-				<td><input type="text" name="custname" value="<%= rs.getString("custname") %>" size="10"></td>
-			</tr>
 		</table>
 		</form>
 	
